@@ -11,7 +11,7 @@ import './Pages.css'
 const Pages = ({title,body}) => {
     return (
         <div className="containerPages">
-            <Title title={title}/>
+            <Title id="about" title={title}/>
             <Body body={body} />
             <StyleButton name="Hola" />
             <ButtonSecondary name="Hola"/>
