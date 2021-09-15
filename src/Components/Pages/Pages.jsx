@@ -3,18 +3,14 @@ import React from 'react'
 import Title from '../Elements/Title/Title'
 import Body from '../Elements/Body/Body'
 
-import StyleButton from '../Elements/Buttons/ButtonPrimary'
-import ButtonSecondary from '../Elements/Buttons/ButtonSecondary'
 
 import './Pages.css'
 
-const Pages = ({title,body}) => {
+const Pages = ({title, title1,body}) => {
     return (
         <div className="containerPages">
-            <Title id="about" title={title}/>
+            <Title id="about" title={title} title1={title1}/>
             <Body body={body} />
-            <StyleButton name="Hola" />
-            <ButtonSecondary name="Hola"/>
         </div>
     )
 }

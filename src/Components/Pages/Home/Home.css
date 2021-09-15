@@ -1,0 +1,14 @@
+.containerHomeBody{
+    margin: 0% 2%;   
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 1.3em;    
+    height: 100%;
+}
+.titleHome{
+}
+.bodyHome{
+    margin: 4% 0%;
+}
