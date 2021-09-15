@@ -12,3 +12,7 @@ instalar roboto font
 para usar roboto
 
     import 'fontsource-roboto';
+
+hacer propios estilos
+
+    npm install @material-ui/styles
