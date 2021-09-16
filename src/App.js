@@ -9,16 +9,16 @@ function App() {
     <div className="App">
       <NavBar/>
       <div id="home">
-      <Pages id="home" body={<Home/>}/>
+        <Pages id="home" body={<Home/>}/>
       </div>
       <div id="about">
-        <Pages id="about" title="About" body="Lorem En este video crearemos una página de aterrizaje simple con un desplazamiento suave. Le mostraré 3 opciones que incluyen CSS puro (comportamiento de desplazamiento), jQuery y un script JS ligero" />
+        <Pages id="about"  body="Lorem En este video crearemos una página de aterrizaje simple con un desplazamiento suave. Le mostraré 3 opciones que incluyen CSS puro (comportamiento de desplazamiento), jQuery y un script JS ligero" />
       </div>
       <div id="projects">
-        <Pages id="projects" title="Projects" body="Como En este video crearemos una página de aterrizaje simple con un desplazamiento suave. Le mostraré 3 opciones que incluyen CSS puro (comportamiento de desplazamiento), jQuery y un script JS ligero" />
+        <Pages id="projects"  body="Como En este video crearemos una página de aterrizaje simple con un desplazamiento suave. Le mostraré 3 opciones que incluyen CSS puro (comportamiento de desplazamiento), jQuery y un script JS ligero" />
       </div>
       <div id="contact">
-        <Pages id="contact" title="Contact" body="Como estas En este video crearemos una página de aterrizaje simple con un desplazamiento suave. Le mostraré 3 opciones que incluyen CSS puro (comportamiento de desplazamiento), jQuery y un script JS ligero" />
+        <Pages id="contact"  body="Como estas En este video crearemos una página de aterrizaje simple con un desplazamiento suave. Le mostraré 3 opciones que incluyen CSS puro (comportamiento de desplazamiento), jQuery y un script JS ligero" />
       </div>
                                               
     </div>

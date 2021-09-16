@@ -8,7 +8,6 @@ const ButtonNavBar = styled(Button)({
     border: 0,
     color: 'white',
     height: 48,
-    fontSize: 20,
     fontWeight:200,
     padding: '0 30px',
 })
