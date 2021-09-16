@@ -15,3 +15,7 @@ para usar roboto
 hacer propios estilos
 
     npm install @material-ui/styles
+
+transitions con framer motion
+
+    npm install framer-motion

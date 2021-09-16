@@ -1,13 +1,9 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 
 import './Home.css'
 
 const Home = () => {
 
-    const [checked, setChecked]=useState(false)
-    useEffect(()=>{
-        setChecked(true)
-    },[checked])
 
     return (
         <div className="containerHomeBody">

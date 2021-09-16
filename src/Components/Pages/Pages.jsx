@@ -10,7 +10,7 @@ const Pages = ({title, title1,body}) => {
     return (
         <div className="containerPages">
             <Title id="about" title={title} title1={title1}/>
-            <Body body={body} />
+            <Body  body={body} />
         </div>
     )
 }
