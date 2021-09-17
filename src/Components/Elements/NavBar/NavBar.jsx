@@ -9,6 +9,7 @@ const NavBar = () => {
         <div className="containerButtonsNavBar">
             <StyleButtonNavBar name ="home"/>
             <StyleButtonNavBar name ="about"/>
+            <StyleButtonNavBar name ="skills"/>
             <StyleButtonNavBar name ="projects"/>
             <StyleButtonNavBar name ="contact"/>
         </div>

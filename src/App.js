@@ -5,6 +5,7 @@ import NavBar from './Components/Elements/NavBar/NavBar';
 
 import Home from './Components/Pages/Home/Home';
 import About from './Components/Pages/About/About';
+import Skills from './Components/Pages/Skills/Skills';
 import Projects from './Components/Pages/Projects/Projects';
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
       </div>
       <div className="aboutPage" id="about">
         <Pages id="about"  body={<About/>} />
+      </div>
+      <div className="skillsPage" id="skills">
+        <Pages id="skills"  body={<Skills/>} />
       </div>
       <div id="projects">
         <Pages id="projects"  body={<Projects/>}/>
