@@ -14,8 +14,7 @@
         width: 100%;
         background-color: rgba(0, 0, 0,.3);
     }
-    
-.containerAltNavBar{
-    display: none;
-}
+    .containerAltNavBar{
+        display: none;
+    }
 }
