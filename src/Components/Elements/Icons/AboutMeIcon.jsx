@@ -8,6 +8,7 @@ import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined'
 const AboutMeIcon = () => {
     return (
             <Button
+            href={`#about`}
             variant="text"
             style={{
                 color:"white",
