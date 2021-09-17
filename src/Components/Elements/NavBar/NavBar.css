@@ -1,9 +1,21 @@
 .containerButtonsNavBar{
-    position: -webkit-sticky;
-    position: fixed;
-    top: 0px;
+    display: none;
+}
+.containerAltNavBar{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    background-color: rgba(0, 0, 0,.3);
+}
+@media(min-width:350px){
+    .containerButtonsNavBar{
+        position: -webkit-sticky;
+        position: fixed;
+        top: 0px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color: rgba(0, 0, 0,.3);
+    }
+    
+.containerAltNavBar{
+    display: none;
+}
 }
