@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <div id="home">
+      <div className="homePage" id="home">
         <Pages id="home" body={<Home/>} />
       </div>
-      <div id="about">
+      <div className="aboutPage" id="about">
         <Pages id="about"  body={<About/>} />
       </div>
       <div id="projects">

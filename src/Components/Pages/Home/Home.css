@@ -1,10 +1,10 @@
 .containerHomeBody{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     text-align: left;
     font-size: 1.3em;    
     height: 100%;
-    width: 100%;
+    width: 80%;
 }
 .homeCard{
     display: flex;
@@ -16,3 +16,5 @@
 .bodyHome{
     margin: 4% 0%;
 }
+
+/* @media(min.width:) */
