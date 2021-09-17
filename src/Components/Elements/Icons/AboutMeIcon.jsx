@@ -12,7 +12,7 @@ const AboutMeIcon = () => {
             variant="text"
             style={{
                 color:"white",
-                fontSize:30
+                fontSize:30,
             }}
             endIcon={<AccountCircleOutlinedIcon
                 style={{

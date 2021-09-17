@@ -10,7 +10,8 @@ const About = () => {
             <div className="aboutTitle">
                 <AboutMeIcon/>
             </div>
-            <p className="bodyAbout">My name is Tomas, I am 25 years old and I live in Cordoba. An organized person who enjoys learning new skills, web development, sports, and cooking. </p>
+            <p className="bodyAbout">My name is Tomas, I am 25 years old and I live in Cordoba.</p>
+            <p> An organized person who enjoys learning new skills, web development, sports and cooking. </p>
         </div>
         
     )
