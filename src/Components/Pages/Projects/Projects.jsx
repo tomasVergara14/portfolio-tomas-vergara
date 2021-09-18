@@ -1,6 +1,7 @@
 import React from 'react'
 
 import ProjectsIcon from '../../Elements/Icons/ProjectsIcon'
+import ProjectsCards from '../../Elements/Cards/ProjectsCards'
 
 import './Projects.css'
 
@@ -10,8 +11,13 @@ const Projects = () => {
             <div className="ProjectsTitle">
                 <ProjectsIcon/>
             </div>
-            <p className="bodyProjects">My name is Tomas, I am 25 years old and I live in Cordoba.</p>
-            <p> An organized person who enjoys learning new skills, web development, sports and cooking. </p>
+            <div className="projectsList"> 
+                <ProjectsCards projectName="CoffeShop" image="CoffeShop.png " link="https://github.com/tomasVergara14/proyecto-coffe" web="https://proyecto-coffeshop.web.app/" />
+                <ProjectsCards projectName="Api Countries" image="ApiCountries.png" link="https://github.com/tomasVergara14/countries-react" web="https://country-react-14.herokuapp.com/" />
+                <ProjectsCards projectName="To Do" image="toDo.png" link="https://github.com/tomasVergara14/to-do-vainilla" web="http://to-do-express.herokuapp.com/" />
+                
+            </div>
+            
         </div>
     )
 }

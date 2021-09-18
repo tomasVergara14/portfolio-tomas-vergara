@@ -1,8 +1,6 @@
 import React from 'react'
 
 import { Box } from '@material-ui/core'
-import { Card } from '@material-ui/core'
-import { CardActions } from '@material-ui/core'
 import { CardContent } from '@material-ui/core'
 import { Typography } from '@material-ui/core'
 

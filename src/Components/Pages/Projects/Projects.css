@@ -8,9 +8,14 @@
 }
 .ProjectsTitle{
     width: 100%;
-    margin: 10%;
+    margin: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid gray;
+}
+.projectsList{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
