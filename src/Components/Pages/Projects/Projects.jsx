@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <div className="projectsCard">
             <div className="ProjectsTitle">
-                <ProjectsIcon/>s
+                <ProjectsIcon/>
             </div>
             <div className="projectsList"> 
                 <ProjectsCards projectName="Portfolio" image="Portfolio.png" link="https://github.com/tomasVergara14/portfolio-tomas-vergara" web="http://to-do-express.herokuapp.com/" />
