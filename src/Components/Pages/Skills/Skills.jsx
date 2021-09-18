@@ -16,11 +16,11 @@ const Skills = () => {
                 <SkillsCards skill="CSS"/>
                 <SkillsCards skill="JS"/>
                 <SkillsCards skill="NODE JS"/>
+                <SkillsCards skill="Trello"/>
                 <SkillsCards skill="REACT JS"/>
+                <SkillsCards skill="Google"/>
                 <SkillsCards skill="Material UI"/>
                 <SkillsCards skill="SCRUM"/>
-                <SkillsCards skill="Trello"/>
-                <SkillsCards skill="Google"/>
             </div>
             
         </div>

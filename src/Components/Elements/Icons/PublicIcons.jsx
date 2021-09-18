@@ -11,6 +11,8 @@ const PublicIcons = ({web}) => {
             style={{
                 color:"black",
                 fontSize:10,
+                margin:0,
+                padding:0
             }}
             endIcon={<Public
                 style={{

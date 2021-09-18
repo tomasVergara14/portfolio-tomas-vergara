@@ -30,7 +30,10 @@ const ProjectsCards = ({projectName, image, link, web}) => {
                     image={image}
                     alt="Paella dish"
                 />
-                <Typography>{projectName} <GitHubIcons link={link} /> <PublicIcons  web={web}/> </Typography>
+                <Typography
+                style={{display:"flex", justifyContent:"space-around", alignContent:"center", flexWrap:"wrap"}}>
+                    {projectName} <GitHubIcons link={link} /> <PublicIcons  web={web}/> 
+                </Typography>
             
             </Card>
             
