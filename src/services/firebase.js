@@ -10,7 +10,7 @@ const firebaseConfig = {
     appId:  process.env.REACT_APP_APP_ID,
     measurementId: "G-CDE032SJLV"
   };
-  // Initialize Firebase
+  //Initialize Firebase
   const app= firebase.initializeApp(firebaseConfig);
 
   export function getFirebase(){
