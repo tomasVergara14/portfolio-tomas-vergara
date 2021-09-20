@@ -14,3 +14,36 @@
     flex-direction: column;
     margin: 2%;
 }
+.ContactInput{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5%;
+    text-align: center;
+}
+.ContactLabel{
+    width: 100%;
+    margin-top: 2%;
+    color: blanchedalmond;
+    text-align: start;
+}
+
+.ContainerSend{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: .5em 2em;
+    justify-content: center;
+}
+
+.ContactSendButton{
+    width: 5em;
+    font-size: 1em;
+    color: blanchedalmond;
+    background-color: rgb(41, 44, 47);
+    border: 1px solid rgb(41, 44, 47);
+    border-radius: 3px;
+    }
+    .ContactSendButton:hover{
+        background-color: aliceblue;
+        color: rgb(41, 44, 47);
+    }

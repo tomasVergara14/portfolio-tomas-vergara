@@ -12,11 +12,11 @@ const Contact = () => {
         <div className="ContactMe">
             <div className="IconsContact">
                 <h4>LinkedIn</h4>
-                <LinkedInIcons/>
+                <LinkedInIcons linkedIn="https://www.linkedin.com/in/tomasvergara/"/>
             </div>
             <div className="IconsContact">
                 <h4>GitHub</h4>
-                <GitHubIcons />
+                <GitHubIcons link="https://github.com/tomasVergara14" />
             </div>
             <ContactForm/>
             

@@ -3,10 +3,10 @@ import React from 'react'
 import { Button } from '@material-ui/core';
 import { LinkedIn } from '@material-ui/icons';
 
-const LinkedInIcons = ({web}) => {
+const LinkedInIcons = ({linkedIn}) => {
     return (
         <Button
-            href={web}
+            href={linkedIn}
             variant="text"
             style={{
                 color:"black",
