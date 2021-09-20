@@ -29,7 +29,8 @@ const ProjectsCards = ({projectName, image, link, web}) => {
             backgroundColor:"#4956a6"
           }}>
             <Card style={{
-                width:"100%"
+                width:"100%",
+                display:"flex", justifyContent:"space-around", alignContent:"center", flexWrap:"wrap",
             }}>
                 <CardMedia
                     component="img"
@@ -38,9 +39,10 @@ const ProjectsCards = ({projectName, image, link, web}) => {
                     alt="Paella dish"
                 />
                 <Typography
-                style={{display:"flex", justifyContent:"space-around", alignContent:"center", flexWrap:"wrap"}}>
-                    {projectName} <GitHubIcons link={link} /> <PublicIcons  web={web}/> 
+                style={{ width:"50%"}}>
+                    {projectName}  
                 </Typography>
+                <Typography style={{width:"50%"}} > <GitHubIcons link={link} /> <PublicIcons  web={web}/> </Typography>
             
             </Card>
             
