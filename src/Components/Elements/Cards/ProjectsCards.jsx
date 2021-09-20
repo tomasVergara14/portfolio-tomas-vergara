@@ -3,7 +3,7 @@ import React from 'react'
 
 import { motion } from "framer-motion"
 
-import { Box, Card } from '@material-ui/core'
+import { Card } from '@material-ui/core'
 import { CardMedia } from '@material-ui/core'
 import { Typography } from '@material-ui/core'
 
