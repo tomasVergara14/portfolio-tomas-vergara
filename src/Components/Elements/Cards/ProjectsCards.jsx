@@ -1,7 +1,9 @@
 import React from 'react'
 
+
+import { motion } from "framer-motion"
+
 import { Box, Card } from '@material-ui/core'
-import { CardContent } from '@material-ui/core'
 import { CardMedia } from '@material-ui/core'
 import { Typography } from '@material-ui/core'
 
@@ -11,16 +13,21 @@ import PublicIcons from '../Icons/PublicIcons'
 
 const ProjectsCards = ({projectName, image, link, web}) => {
     return (
-        <Box 
+        <motion.div 
         component="span"
-        sx={{
+        style={{
             width:"45%",
             margin:6,
             display:"flex",
             height: "50%",
             maxHeight: { xs: 203, md: 107 },
             maxWidth: { xs: 320, md: 200 },
-        }}>
+        }}
+        whileHover={{
+            scale: 1.2,
+            transition: { duration: .8 },
+            backgroundColor:"#4956a6"
+          }}>
             <Card style={{
                 width:"100%"
             }}>
@@ -37,7 +44,7 @@ const ProjectsCards = ({projectName, image, link, web}) => {
             
             </Card>
             
-        </Box>
+        </motion.div>
     )
 }
 
