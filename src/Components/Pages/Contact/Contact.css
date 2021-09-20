@@ -1,0 +1,16 @@
+.ContactMe{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    height: 25em;
+    background-color: rgba(0, 0, 0, .3);
+}
+.IconsContact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    margin: 2%;
+    background-color: white;
+    color: black;
+}
