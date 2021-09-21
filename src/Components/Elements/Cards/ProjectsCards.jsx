@@ -19,7 +19,7 @@ const ProjectsCards = ({projectName, image, link, web}) => {
             width:"45%",
             margin:6,
             display:"flex",
-            height: "50%",
+            height: "45%",
             maxHeight: { xs: 203, md: 107 },
             maxWidth: { xs: 320, md: 200 },
         }}
@@ -34,12 +34,12 @@ const ProjectsCards = ({projectName, image, link, web}) => {
             }}>
                 <CardMedia
                     component="img"
-                    height="124"
+                    height="100"
                     image={image}
                     alt="Paella dish"
                 />
                 <Typography
-                style={{ width:"50%"}}>
+                style={{ width:"50%", fontWeight:"bold", color:"black"}}>
                     {projectName}  
                 </Typography>
                 <Typography style={{width:"50%"}} > <GitHubIcons link={link} /> <PublicIcons  web={web}/> </Typography>
