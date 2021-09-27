@@ -16,15 +16,17 @@ const ProjectsCards = ({projectName, image, link, web}) => {
         <motion.div 
         component="span"
         style={{
-            width:"45%",
+            width:"80%",
             margin:6,
+            height:"100%",
             display:"flex",
-            height: "45%",
+            justifyContent:"center",
+            alignContent:"center",
             maxHeight: { xs: 203, md: 107 },
             maxWidth: { xs: 320, md: 200 },
         }}
         whileHover={{
-            scale: 1.2,
+            scale: 1.1,
             transition: { duration: .8 },
             backgroundColor:"#4956a6"
           }}>
@@ -34,7 +36,6 @@ const ProjectsCards = ({projectName, image, link, web}) => {
             }}>
                 <CardMedia
                     component="img"
-                    height="100"
                     image={image}
                     alt="Paella dish"
                 />

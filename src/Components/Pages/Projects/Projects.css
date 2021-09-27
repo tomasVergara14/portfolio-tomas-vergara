@@ -15,9 +15,26 @@
     border-bottom: 1px solid gray;
 }
 .projectsList{
-    width: 100%;
+        width: 100%;
         display: flex;
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
+}
+.arrows{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.slide.active{
+    display: flex;
+    justify-content: center;
+    opacity:1;
+    transition-duration: 1s;
+    transform: scale(1.05);
+}
+.slide{
+    opacity:1;
+    transition-duration: 1s ease;
 }
 

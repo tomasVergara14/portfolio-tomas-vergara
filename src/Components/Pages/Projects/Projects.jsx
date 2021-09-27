@@ -30,15 +30,18 @@ const Projects = ({slides}) => {
                 <ProjectsIcon/>
             </div>
             <div className="projectsList"> 
-                <ArrowBack onClick={prevSlide} />
+                <div className="arrows">
+                <ArrowBack onClick={prevSlide} className="arrowBack" />
+                <ArrowForward onClick={nextSlide} className="arrowFoward" />
+                </div>
+                
                 {projectData.map((slide, index)=>{
                     return(
-                        <div key={index} >
+                        <div className={index === current ? 'slide active' : 'slide'} key={index} >
                             {index === current && (<ProjectsCards projectName={slide.name}  image={slide.image} link={slide.git} web={slide.link} />) }
                         </div>
                     )
                 })}
-                <ArrowForward onClick={nextSlide} />
                 {/* <ProjectsCards projectName="Portfolio" image="Portfolio.png" link="https://github.com/tomasVergara14/portfolio-tomas-vergara" />
                 <ProjectsCards projectName="CoffeShop" image="CoffeShop.png " link="https://github.com/tomasVergara14/proyecto-coffe" web="https://proyecto-coffeshop.web.app/" />
                 <ProjectsCards projectName="Api Countries" image="ApiCountries.png" link="https://github.com/tomasVergara14/countries-react" web="https://country-react-14.herokuapp.com/" />
