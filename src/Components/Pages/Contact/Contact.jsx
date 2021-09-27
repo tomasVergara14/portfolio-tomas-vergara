@@ -18,8 +18,7 @@ const Contact = () => {
                 <h4>GitHub</h4>
                 <GitHubIcons link="https://github.com/tomasVergara14" />
             </div>
-            <ContactForm/>
-            
+            <ContactForm/>            
         </div>
         
     )

@@ -1,4 +1,5 @@
 .ContactMe{
+    margin-top: 15%;
     display: flex;
     flex-direction: column;
     width: 20em;
