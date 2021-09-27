@@ -9,6 +9,8 @@ import Skills from './Components/Pages/Skills/Skills';
 import Projects from './Components/Pages/Projects/Projects';
 import Contact from './Components/Pages/Contact/Contact';
 
+import { projectData } from './data/projectsData';
+
 function App() {
   return (
     <div className="App">
@@ -23,7 +25,7 @@ function App() {
         <Pages id="skills"  body={<Skills/>} />
       </div>
       <div id="projects">
-        <Pages id="projects"  body={<Projects/>}/>
+        <Pages id="projects"  body={<Projects slides={projectData}/>}/>
       </div>
       <div id="contact">
         <Pages id="contact"  body={<Contact/>} />
