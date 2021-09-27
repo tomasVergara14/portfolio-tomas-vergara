@@ -9,7 +9,7 @@ const GitHubIcons = ({link}) => {
             href={link}
             variant="text"
             style={{
-                color:"black",
+                color:"white", //era negro para probar
                 fontSize:10,
             }}
             endIcon={<GitHub

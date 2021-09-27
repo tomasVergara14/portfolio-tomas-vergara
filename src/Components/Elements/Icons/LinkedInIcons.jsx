@@ -9,8 +9,8 @@ const LinkedInIcons = ({linkedIn}) => {
             href={linkedIn}
             variant="text"
             style={{
-                color:"black",
-                fontSize:10,
+                color:"white",
+                fontSize:15,
                 margin:0,
                 padding:0
             }}

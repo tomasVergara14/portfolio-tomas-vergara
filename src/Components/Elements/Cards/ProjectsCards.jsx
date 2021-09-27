@@ -18,7 +18,7 @@ const ProjectsCards = ({projectName, image, link, web}) => {
         style={{
             width:"80%",
             margin:6,
-            height:"100%",
+            height:"98%",
             display:"flex",
             justifyContent:"center",
             alignContent:"center",
@@ -28,11 +28,13 @@ const ProjectsCards = ({projectName, image, link, web}) => {
         whileHover={{
             scale: 1.1,
             transition: { duration: .8 },
-            backgroundColor:"#4956a6"
+            backgroundColor:"#151932"
           }}>
             <Card style={{
                 width:"100%",
                 display:"flex", justifyContent:"space-around", alignContent:"center", flexWrap:"wrap",
+                backgroundColor:"#151932",
+                color:"white"
             }}>
                 <CardMedia
                     component="img"
@@ -40,10 +42,11 @@ const ProjectsCards = ({projectName, image, link, web}) => {
                     alt="Paella dish"
                 />
                 <Typography
-                style={{ width:"50%", fontWeight:"bold", color:"black"}}>
+                variant="h4" component="h4" 
+                style={{ backgroundColor:"#0000004d", width:"50%",color:"white"}}>
                     {projectName}  
                 </Typography>
-                <Typography style={{width:"50%"}} > <GitHubIcons link={link} /> <PublicIcons  web={web}/> </Typography>
+                <Typography style={{ display:"flex", justifyContent:"space-around", alignContent:"center", backgroundColor:"#0000004d", width:"50%"}} > <GitHubIcons link={link} /> <PublicIcons  web={web}/> </Typography>
             
             </Card>
             

@@ -31,8 +31,8 @@ const Projects = ({slides}) => {
             </div>
             <div className="projectsList"> 
                 <div className="arrows">
-                <ArrowBack onClick={prevSlide} className="arrowBack" />
-                <ArrowForward onClick={nextSlide} className="arrowFoward" />
+                <ArrowBack onClick={prevSlide} className="arrowBack" style={{fontSize:"larger"}} />
+                <ArrowForward onClick={nextSlide} className="arrowFoward" style={{fontSize:"larger"}} />
                 </div>
                 
                 {projectData.map((slide, index)=>{
