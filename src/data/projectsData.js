@@ -4,6 +4,7 @@ import coffeShopImage from './coffeShop.png'
 import ApiCountriesImage from './ApiCountries.png'
 import drumsImage from './drums.png'
 import reactClock from './reactClock.png'
+import playingCss from './playingCss.png'
 
 
 export const projectData = [
@@ -48,6 +49,13 @@ export const projectData = [
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/react-clock',
         link:'https://react-clock-chronometer.netlify.app/',
+    },
+    {
+        name:'Playing with CSS',
+        image:playingCss,
+        alt:'image-portfolio',
+        git:'https://github.com/tomasVergara14/playing-css',
+        link:'https://playing-css.herokuapp.com/',
     }
 
 ]
