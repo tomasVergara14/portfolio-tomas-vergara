@@ -7,6 +7,7 @@ const LinkedInIcons = ({linkedIn}) => {
     return (
         <Button
             href={linkedIn}
+            target="_blank"
             variant="text"
             style={{
                 color:"white",

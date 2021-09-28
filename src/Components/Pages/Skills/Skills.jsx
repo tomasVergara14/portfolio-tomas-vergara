@@ -18,7 +18,6 @@ const Skills = () => {
                 <SkillsCards skill="NODE JS"/>
                 <SkillsCards skill="Trello"/>
                 <SkillsCards skill="REACT JS"/>
-                <SkillsCards skill="Google"/>
                 <SkillsCards skill="Material UI"/>
                 <SkillsCards skill="SCRUM"/>
             </div>

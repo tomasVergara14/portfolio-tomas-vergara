@@ -7,6 +7,7 @@ const PublicIcons = ({web}) => {
     return (
         <Button
             href={web}
+            target="_blank"
             variant="text"
             style={{
                 color:"white",

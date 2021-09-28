@@ -7,6 +7,7 @@ const GitHubIcons = ({link}) => {
     return (
         <Button
             href={link}
+            target="_blank"
             variant="text"
             style={{
                 color:"white", //era negro para probar
