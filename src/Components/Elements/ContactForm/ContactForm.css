@@ -22,6 +22,10 @@
     border-radius: 5%;
     text-align: center;
 }
+.ContactInput::placeholder{
+    font-size: 1.3em;
+    font-weight: 400;
+}
 .ContactLabel{
     width: 100%;
     margin-top: 2%;
