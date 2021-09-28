@@ -42,7 +42,7 @@ const ProjectsCards = ({projectName, image, link, web}) => {
                     alt="Paella dish"
                 />
                 <Typography
-                variant="h4" component="h4" 
+                variant="h5" component="h5" 
                 style={{ backgroundColor:"#0000004d", width:"50%",color:"white"}}>
                     {projectName}  
                 </Typography>

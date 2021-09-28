@@ -14,3 +14,12 @@
     align-items: center;
     border-bottom: 1px solid gray;
 }
+.picContainer{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+.picContainer img{
+    width: 100%;
+    border-radius: 50%;
+}
