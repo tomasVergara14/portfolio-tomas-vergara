@@ -14,8 +14,16 @@
     align-items: center;
     border-bottom: 1px solid gray;
 }
+.certification{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    font-size: .8em;
+    margin: 2%;
+}
 .skillsList{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20%;
+    margin: 5% 0%;
 }
