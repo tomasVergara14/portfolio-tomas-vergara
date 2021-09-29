@@ -14,7 +14,7 @@ export const projectData = [
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/portfolio-tomas-vergara',
         link:'https://portfolio-tomas-vergara.netlify.app/',
-        tech:'React JS, Material UI'
+        tech:'REACT JS, Material UI'
     },
     {
         name:'To Do',
@@ -38,7 +38,7 @@ export const projectData = [
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/proyecto-coffe',
         link:'http://to-do-express.herokuapp.com/',
-        tech:'ReactJS, Firebase'
+        tech:'REACT JS, Firebase'
     },
     {
         name:'Drums',
@@ -54,7 +54,7 @@ export const projectData = [
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/react-clock',
         link:'https://react-clock-chronometer.netlify.app/',
-        tech:'React JS, Material UI'
+        tech:'REACT JS, Material UI'
     },
     {
         name:'Playing with CSS',
