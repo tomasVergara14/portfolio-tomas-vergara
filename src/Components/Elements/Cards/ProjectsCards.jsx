@@ -48,7 +48,7 @@ const ProjectsCards = ({projectName, tech, image, link, web}) => {
                 </Typography>
                 <Typography style={{ display:"flex", justifyContent:"space-around", alignContent:"center", backgroundColor:"#0000004d", width:"50%"}} > <GitHubIcons link={link} /> <PublicIcons  web={web}/> </Typography>
                 <Typography
-                variant="subtitle1" component="subtitle1" 
+                variant="body2" component="body2" 
                 style={{ backgroundColor:"#0000004d", width:"100%",color:"white"}}>
                     {tech}  
                 </Typography>
