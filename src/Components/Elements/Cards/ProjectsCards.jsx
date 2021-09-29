@@ -11,7 +11,7 @@ import GitHubIcons from '../Icons/GitHubIcons'
 import PublicIcons from '../Icons/PublicIcons'
 
 
-const ProjectsCards = ({projectName, image, link, web}) => {
+const ProjectsCards = ({projectName, tech, image, link, web}) => {
     return (
         <motion.div 
         component="span"
@@ -47,6 +47,11 @@ const ProjectsCards = ({projectName, image, link, web}) => {
                     {projectName}  
                 </Typography>
                 <Typography style={{ display:"flex", justifyContent:"space-around", alignContent:"center", backgroundColor:"#0000004d", width:"50%"}} > <GitHubIcons link={link} /> <PublicIcons  web={web}/> </Typography>
+                <Typography
+                variant="subtitle1" component="subtitle1" 
+                style={{ backgroundColor:"#0000004d", width:"100%",color:"white"}}>
+                    {tech}  
+                </Typography>
             
             </Card>
             

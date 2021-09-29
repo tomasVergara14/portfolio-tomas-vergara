@@ -13,14 +13,16 @@ export const projectData = [
         image:portfolioImage,
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/portfolio-tomas-vergara',
-        link:'https://portfolio-tomas-vergara.netlify.app/'
+        link:'https://portfolio-tomas-vergara.netlify.app/',
+        tech:'React JS, Material UI'
     },
     {
         name:'To Do',
         image:toDoImage,
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/to-do-vainilla',
-        link:'http://to-do-express.herokuapp.com/'
+        link:'http://to-do-express.herokuapp.com/',
+        tech:'JS, EXPRESS, NODE JS, CSS'
     },
     {
         name:'API Countries',
@@ -28,6 +30,7 @@ export const projectData = [
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/countries-react',
         link:'https://country-react-14.herokuapp.com/',
+        tech:'JS, CSS, API Fetch'
     },
     {
         name:'Coffe Shop',
@@ -35,6 +38,7 @@ export const projectData = [
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/proyecto-coffe',
         link:'http://to-do-express.herokuapp.com/',
+        tech:'ReactJS, Firebase'
     },
     {
         name:'Drums',
@@ -42,6 +46,7 @@ export const projectData = [
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/drums',
         link:'https://vanilla-drums.herokuapp.com/',
+        tech:'JS, EXPRESS, NODE JS'
     },
     {
         name:'React Clock',
@@ -49,6 +54,7 @@ export const projectData = [
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/react-clock',
         link:'https://react-clock-chronometer.netlify.app/',
+        tech:'React JS, Material UI'
     },
     {
         name:'Playing with CSS',
@@ -56,6 +62,7 @@ export const projectData = [
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/playing-css',
         link:'https://playing-css.herokuapp.com/',
+        tech:'JS, EXPRESS, CSS'
     }
 
 ]
