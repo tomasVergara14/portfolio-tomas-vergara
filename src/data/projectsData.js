@@ -37,7 +37,7 @@ export const projectData = [
         image:coffeShopImage,
         alt:'image-portfolio',
         git:'https://github.com/tomasVergara14/proyecto-coffe',
-        link:'http://to-do-express.herokuapp.com/',
+        link:'https://proyecto-coffeshop.web.app/',
         tech:'REACT JS, Firebase'
     },
     {
