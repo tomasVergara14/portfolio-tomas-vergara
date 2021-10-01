@@ -7,7 +7,7 @@ import reactClock from './reactClock.png'
 import playingCss from './playingCss.png'
 
 
-export const projectData = [
+export const projectsData = [
     {
         name:'Portfolio',
         image:portfolioImage,

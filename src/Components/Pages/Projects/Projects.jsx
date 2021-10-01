@@ -6,7 +6,7 @@ import ProjectsCards from '../../Elements/Cards/ProjectsCards'
 import { ArrowBack } from '@material-ui/icons'
 import { ArrowForward } from '@material-ui/icons'
 
-import { projectData } from '../../../data/projectsData'
+import { projectsData } from '../../../data/projectsData'
 
 import './Projects.css'
 
@@ -35,7 +35,7 @@ const Projects = ({slides}) => {
                 <ArrowForward onClick={nextSlide} className="arrowFoward" style={{fontSize:"larger"}} />
                 </div>
                 
-                {projectData.map((slide, index)=>{
+                {projectsData.map((slide, index)=>{
                     return(
                         <div className={index === current ? 'slide active' : 'slide'} key={index} >
                             {index === current && (<ProjectsCards projectName={slide.name}  image={slide.image} link={slide.git} web={slide.link} tech={slide.tech} />) }
