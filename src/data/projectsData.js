@@ -64,5 +64,4 @@ export const projectData = [
         link:'https://playing-css.herokuapp.com/',
         tech:'JS, EXPRESS, CSS'
     }
-
 ]
