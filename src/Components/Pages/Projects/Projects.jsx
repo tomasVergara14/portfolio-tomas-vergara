@@ -6,7 +6,7 @@ import ProjectsCards from '../../Elements/Cards/ProjectsCards'
 import { ArrowBack } from '@material-ui/icons'
 import { ArrowForward } from '@material-ui/icons'
 
-import { projectData } from '../../../data/projectsData'
+import {projectData} from '../../../data/projectsData'
 
 import './Projects.css'
 
