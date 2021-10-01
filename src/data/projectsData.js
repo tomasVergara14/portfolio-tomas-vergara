@@ -1,7 +1,7 @@
 import portfolioImage from './Portfolio.png'
 import toDoImage from './toDo.png'
 import coffeShopImage from './coffeShop.png'
-import ApiCountriesImage from './ApiCountries.png'
+// import ApiCountriesImage from './ApiCountries.png'
 import drumsImage from './drums.png'
 import reactClock from './reactClock.png'
 import playingCss from './playingCss.png'
