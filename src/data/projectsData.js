@@ -24,14 +24,6 @@ export const projectData = [
         link:'http://to-do-express.herokuapp.com/',
         tech:'JS, EXPRESS, NODE JS, CSS'
     },
-    // {
-    //     name:'API Countries',
-    //     image:ApiCountriesImage,
-    //     alt:'image-portfolio',
-    //     git:'https://github.com/tomasVergara14/countries-react',
-    //     link:'https://country-react-14.herokuapp.com/',
-    //     tech:'JS, CSS, API Fetch'
-    // },
     {
         name:'Coffe Shop',
         image:coffeShopImage,
